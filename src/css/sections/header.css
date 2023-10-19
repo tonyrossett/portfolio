@@ -1,0 +1,42 @@
+.header {
+  padding: 30px 15px;
+}
+
+.menu-fixed {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.header nav ul {
+  display: flex;
+}
+
+.header nav li {
+  padding: 0 25px;
+}
+
+.header nav li a {
+  text-transform: capitalize;
+  color: var(--color-white);
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 10px 10px;
+  transition: 0.5s ease-in-out;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  user-select: none;
+  margin: 0 50px;
+}
+
+.header nav li a:hover {
+  color: var(--color-brighter);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1160px) {
+  .header nav li a {
+    margin: 0 15px;
+  }
+}
