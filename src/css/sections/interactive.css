@@ -62,7 +62,7 @@
 
 /* ------ Button that slides ------- */
 
-.button-sliding {
+.button {
   font-size: var(--font-Xsmall);
   text-align: center;
   min-width: 130px;
@@ -83,11 +83,11 @@
   color: var(--color-white);
 }
 
-.button-sliding:hover {
+.button:hover {
   color: var(--color-brighter);
 }
 
-.button-sliding:after {
+.button:after {
   content: "";
   position: absolute;
   z-index: -1;
